@@ -86,7 +86,7 @@ button a{
 }
  #about .aboutdiv{
     display: grid;
-    grid-template-columns:auto auto auto auto ;
+    grid-template-columns:auto auto auto auto auto ;
     justify-content: center;
     gap: 20px;
     width: 100%;
@@ -96,13 +96,18 @@ button a{
 }
 #about .aboutdiv div{
     width: 200px;
-    height: 200px;
-    border: 2px solid black;
-    margin-top: 40px;  
+    height: 300px;
+    margin-top: 80px;  
 } 
 
 .logo i{
     font-size: 30px;
+}
+
+div img{
+     width: 200px;
+    height: 300px; 
+    border-radius: 10px;
 }
 
     
