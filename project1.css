@@ -87,7 +87,10 @@ button a{
 #about{
     width: 100%;
     height: 100vh;
-    background-color: rgb(242, 230, 215);
+    /* background-color: rgb(242, 230, 215); */
+    background-size: cover;
+    background-image: url(backround222.jpg);
+    background-repeat: no-repeat;
 }
  #about .aboutdiv{
     display: grid;
@@ -160,7 +163,9 @@ div img{
     color: whitesmoke;
 }
 #eva{
+     background-size: cover;
      background-image: url(backround.jpg); 
+     background-repeat: no-repeat;
     /* background-color: rgb(236, 200, 131); */
 }
 
