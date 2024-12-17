@@ -84,11 +84,12 @@ button a{
 }
 
 /* home page ends here ***************/
+
 #about{
     width: 100%;
     height: 100vh;
     background-size: cover;
-    background-image: url(backround222.jpg);
+    /* background-image: url(backround222.jpg); */
     background-repeat: no-repeat;
 }
  #about .aboutdiv{
@@ -98,7 +99,7 @@ button a{
     gap: 20px;
     width: 100%;
     height: 100vh;
-    border: 2px solid black;
+    /* border: 2px solid black; */
    
 }
 #about .aboutdiv div{
@@ -125,7 +126,7 @@ div img{
     align-items: center;
     width: 100%;
     height: 100vh;
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
     justify-content: space-evenly;
 }
 
@@ -162,16 +163,17 @@ div img{
 }
 #eva{
      background-size: cover;
-     background-image: url(backround.jpg); 
+     /* background-image: url(backround.jpg);  */
      background-repeat: no-repeat;
 }
+
 /* third section ends here ************/
 
 #active{
     width: 100%;
     height: 120vh;
-    border: 2px solid grey;
-    background:linear-gradient(45deg,blueviolet,lightgreen);
+    /* border: 2px solid grey; */
+    /* background:linear-gradient(45deg,blueviolet,lightgreen); */
     /* background-image: url(background.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
@@ -188,13 +190,12 @@ div img{
 #active .active2 div{
     width: 300px;
     height: 300px;
-    border: 1px solid green; 
+    border: 1px solid green;
     margin-top: 10px; 
     border-radius: 30px;
     display: flex;
     align-items: center; 
     justify-content: center; 
-    /* font-size: xx-large; */
    
 }
 #active h1{
@@ -218,6 +219,64 @@ div img{
     border: 1px solid green; 
 }
 
-.active2 .two{
-    background-color: black;
+.active2 .two img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    border: 1px solid green; 
+}
+
+.active2 .three img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    border: 1px solid green; 
+}
+.active2 .four img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    border: 1px solid green; 
+}
+
+.active2 .five img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    border: 1px solid green; 
+}
+
+.active2 .six img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    border: 1px solid green; 
+}
+
+/* section 4 ends here *****************/
+
+/* footer{ */
+    /* width: 100%; */
+    /* position: absolute; */
+    /* height: 30vh; */
+    /* background:linear-gradient(to right,#00093c,#2d0b00); */
+    /* color: #fff; */
+    /* padding: 100px 0 30px; */
+    /* border-top-left-radius: 125px;
+    font-size: 30px;
+    /* line-height: 20px; } */
+
+.footer{
+    /* margin-left: 8rem; */
+
+}
+.footer .main-part{
+    background-color: #1c1c1c;
+}
+.footer-heading{
+    color: lightblue;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 3rem 0 6rem;
 }
