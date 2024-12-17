@@ -195,7 +195,7 @@ div img{
     align-items: center; 
     justify-content: center; 
     /* font-size: xx-large; */
-    /* background-color: rgb(174, 201, 225); */
+   
 }
 #active h1{
     font-size:70px;
@@ -211,10 +211,13 @@ div img{
     justify-content: center;
     color: red;
 }
-.one p{
+.active2 .one img{
     width: 300px;
-    /* padding: 10px;  */
-    text-align: center;
-    /* margin: 100%; */
-    font-size: 20px;
+    height: 300px;
+    border-radius: 30px;
+    border: 1px solid green; 
+}
+
+.active2 .two{
+    background-color: black;
 }
