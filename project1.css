@@ -255,28 +255,46 @@ div img{
 
 /* section 4 ends here *****************/
 
-/* footer{ */
-    /* width: 100%; */
-    /* position: absolute; */
-    /* height: 30vh; */
-    /* background:linear-gradient(to right,#00093c,#2d0b00); */
-    /* color: #fff; */
-    /* padding: 100px 0 30px; */
-    /* border-top-left-radius: 125px;
-    font-size: 30px;
-    /* line-height: 20px; } */
-
-.footer{
-    /* margin-left: 8rem; */
-
-}
 .footer .main-part{
-    background-color: #1c1c1c;
+    background-color: black;
+    padding: 35px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap: 8px;
+    border-top-right-radius: 20%;
 }
 .footer-heading{
-    color: lightblue;
+    color: rgb(44, 191, 240);
     text-decoration: none;
-    font-size: 2.5rem;
-    font-weight: 300;
-    margin: 3rem 0 6rem;
+    font-size: 35px;
+    /* font-weight: 300; */
+    margin: 10px;
 }
+.footer-para{
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 15px;
+    line-height: 1.8; 
+}
+.share a{
+    height: 65px;
+    width: 65px;
+    text-decoration: none;
+    background: whitesmoke;
+    border-radius: 50%;
+    margin-right: 32px;
+    text-align: center;
+    font-size: 32px;
+    color: black;
+    line-height: 64px;
+}
+.share a:hover{
+    background-color: green;
+}
+.links{
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+} 
