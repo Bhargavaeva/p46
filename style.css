@@ -1,0 +1,299 @@
+*{
+   padding: 0%;
+   margin: 0%; 
+   text-decoration: none;  
+}
+.navbar{
+    background: rgb(236, 158, 13); 
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: aliceblue;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+
+}
+
+button{
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+button a{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+}
+.navbar div a:hover{
+    color: black;
+}
+
+.navbar div ul li a:hover{
+      color: black;
+}
+.navbar div nav ul button a:hover{
+    color: maroon;
+}
+/* navbar ends here*********************************************** */
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center; 
+}
+#home div{
+    width: 50%;
+    padding-left: 35%;
+    font-size:30px;
+    color:white;
+}
+#home div h1 span{
+    color:yellow;
+}
+#home div h1{
+    color:yellow;
+}
+.btn{
+    color: antiquewhite;
+    background-color: red;
+}
+.btn:hover{
+    color: black;
+}
+
+/* home page ends here ***************/
+
+#about{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    /* background-image: url(backround222.jpg); */
+    background-repeat: no-repeat;
+}
+ #about .aboutdiv{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto ;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid black; */
+   
+}
+#about .aboutdiv div{
+    width: 200px;
+    height: 300px;
+    margin-top: 80px;  
+} 
+
+.logo i{
+    font-size: 30px;
+}
+
+div img{
+     width: 200px;
+    height: 300px; 
+    border-radius: 10px;
+}
+
+ /* about page ends here **************/
+
+
+.eva2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid grey; */
+    justify-content: space-evenly;
+}
+
+.eva2 div{
+    width: 600px;
+    height: 400px;
+}
+.eva2 div img{
+    width: 600px;
+    height: 400px;
+}
+.eva2 div h1{
+    font-size:50px;
+    padding-left: 14%;
+    color:rgb(236, 35, 102);
+    
+}  
+.eva2 div h2{
+    font-size:x-large ;
+    padding-left: 10% ; 
+    color: darkblue; 
+}
+.eva2 div button{
+    color: rgb(41, 8, 230);
+    background-color: rgb(191, 142, 236);
+    border: 4px solid purple;
+    block-size:15%;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.eva2 div button:hover{
+    color: whitesmoke;
+}
+#eva{
+     background-size: cover;
+     /* background-image: url(backround.jpg);  */
+     background-repeat: no-repeat;
+}
+
+/* third section ends here ************/
+
+#active{
+    width: 100%;
+    height: 120vh;
+    /* background-image: url(background.jpg); */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+#active .active2 {
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    justify-content: space-between;
+    gap: 20px;
+    justify-content: center; 
+}
+
+#active .active2 div{
+    width: 300px;
+    height: 300px;
+    border: 1px solid green;
+    margin-top: 10px; 
+    border-radius: 30px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+   
+}
+#active h1{
+    font-size:70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(13, 4, 4);
+}
+#active h2{
+    font-size:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+.active2 .one img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    border: 1px solid green; 
+}
+
+.active2 .two img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    border: 1px solid green; 
+}
+
+.active2 .three img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    border: 1px solid green; 
+}
+.active2 .four img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    border: 1px solid green; 
+}
+
+.active2 .five img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    border: 1px solid green; 
+}
+
+.active2 .six img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    border: 1px solid green; 
+}
+
+/* section 4 ends here *************************/
+
+.footer .main-part{
+    background-color: black;
+    padding: 35px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap: 8px;
+    border-top-right-radius: 20%;
+}
+.footer-heading{
+    color: rgb(44, 191, 240);
+    text-decoration: none;
+    font-size: 35px;
+    /* font-weight: 300; */
+    margin: 10px;
+}
+.footer-para{
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 15px;
+    line-height: 1.8; 
+}
+.share a{
+    height: 65px;
+    width: 65px;
+    text-decoration: none;
+    background: whitesmoke;
+    border-radius: 50%;
+    margin-right: 32px;
+    text-align: center;
+    font-size: 32px;
+    color: black;
+    line-height: 64px;
+}
+.share a:hover{
+    background-color: green;
+}
+.links{
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+} 
