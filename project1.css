@@ -64,6 +64,7 @@
     width: 100%;
     height: 90vh;
     border: 2px solid black; 
+    background-color: mistyrose;
  }
     #second .second2 {
     display: flex;
@@ -75,7 +76,7 @@
 #second .second2 div{
     width: 300px;
     height: 300px;
-    border: 1px solid green;
+    border: 1px solid red;
     /* margin-top: 65px;  */
     border-radius: 30px;
     display: flex;
@@ -95,4 +96,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 color:rgb(13, 4, 4);
+}
+.second2 div i{
+    padding-bottom: 40%;
 }
